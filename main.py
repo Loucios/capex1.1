@@ -1,5 +1,9 @@
+from openpyxl import load_workbook
+
+
 def main():
-    pass
+    filename = 'capex.xlsx'
+    wb = load_workbook(filename=filename)
 
 
 if __name__ == '__main__':
